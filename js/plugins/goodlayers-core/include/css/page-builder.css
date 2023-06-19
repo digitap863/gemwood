@@ -3249,7 +3249,9 @@ ul.gdlr-core-product-sub-category li h3{font-size: 18px;margin-top: 24px;margin-
 	/* flexslider */
 	.gdlr-core-flexslider-nav, 
 	.gdlr-core-flexslider .flex-direction-nav,
-	.gdlr-core-flexslider-custom-nav{ display: none; }
+	/* .gdlr-core-flexslider-custom-nav{
+		 display: none; 
+		}*/
 	.gdlr-core-flexslider[data-nav="navigation-bottom"] .flex-direction-nav{ display: block; }
 
 }
