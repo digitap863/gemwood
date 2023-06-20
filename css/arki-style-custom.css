@@ -195,11 +195,16 @@ body.arki-boxed .arki-body-wrapper{ margin-top: 0px; margin-bottom: 0px; }
  .arki-navigation .sf-vertical > li{ padding-top: 16px; padding-bottom: 16px; } 
 .arki-header-style-bar .arki-logo-right-text{ padding-top: 30px; } 
 .arki-header-style-plain{ box-shadow: 0px 0px 20px rgba(10, 10, 10, 0.1); -webkit-box-shadow: 0px 0px 20px rgba(10, 10, 10, 0.1); -moz-box-shadow: 0px 0px 20px rgba(10, 10, 10, 0.1); } 
-.arki-logo{ padding-top: 14px; } 
+.arki-logo{ padding-top: 10px; } 
 .arki-logo{ padding-bottom: 50px; } 
 /* .arki-logo.arki-item-pdlr{ padding-left: 20px; } */
-.arki-logo-inner{ max-width: 261px; } 
-@media only screen and (max-width: 767px){ .arki-mobile-header .arki-logo-inner{ max-width: 120px; } } 
+.arki-logo-inner{ max-width: 250px; } 
+@media only screen and (max-width: 1129px){ 
+    .arki-logo-inner{ max-width: 133px; } 
+    .arki-logo{ padding-top: 34px; }
+}
+
+@media only screen and (max-width: 767px){ .arki-mobile-header .arki-logo-inner{ max-width: 145px; } } 
 .arki-navigation{ padding-top: 45px; }.arki-navigation-top{ top: 45px; } 
 .arki-navigation .sf-menu > li > a{ padding-bottom: 26px; } 
 .arki-navigation .arki-main-menu{ padding-right: 20px; } 
@@ -229,7 +234,7 @@ body.arki-boxed .arki-body-wrapper{ margin-top: 0px; margin-bottom: 0px; }
 .arki-page-title-wrap .arki-page-title-top-gradient{ height: 413px; } 
 .arki-page-title-wrap .arki-page-title-bottom-gradient{ height: 413px; } 
 .arki-page-title-wrap .arki-page-title-overlay{ opacity: 0; } 
-.arki-page-title-wrap{ background-image: url(../images/banner2.jpg); } 
+.arki-page-title-wrap{ background-image: url(../images/banner_3.jpg); } 
 .arki-not-found-wrap .arki-not-found-background{ opacity: 0.3; } 
 .arki-blog-title-wrap.arki-style-custom .arki-blog-title-content{ padding-top: 146px; } 
 .arki-blog-title-wrap.arki-style-custom .arki-blog-title-content{ padding-bottom: 146px; } 
@@ -250,7 +255,7 @@ body.single-post .arki-sidebar-style-none, body.blog .arki-sidebar-style-none, .
 .arki-body .gdlr-core-info-font, .arki-body .arki-info-font{ font-family: "Jost", sans-serif; } 
 .arki-body .gdlr-core-blog-info-font, .arki-body .arki-blog-info-font{ font-family: "Jost", sans-serif; } 
 .arki-body .gdlr-core-quote-font, blockquote{ font-family: "Playfair Display", serif; } 
-.arki-body .gdlr-core-testimonial-content{ font-family: "Playfair Display", serif; } 
+
 .arki-body h1{ font-size: 52px; } 
 .arki-body h2, #poststuff .gdlr-core-page-builder-body h2{ font-size: 48px; } 
 .arki-body h3{ font-size: 36px; } 
@@ -608,11 +613,11 @@ blockquote, q, pre{ background-color: #f5f5f5; }
 .gdlr-core-stunning-text-item-caption{ color: #747474; } 
 .gdlr-core-stunning-text-item-title{ color: #383838; } 
 
-.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title, .gdlr-core-tab-style1-vertical .gdlr-core-tab-item-title{ background-color: #cccccc; } 
+.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title, .gdlr-core-tab-style1-vertical .gdlr-core-tab-item-title{ background-color: #ddddddc4; } 
 .gdlr-core-tab-item-title-wrap, .gdlr-core-tab-item-content-wrap, .gdlr-core-tab-item-title{ border-color: #ebebeb; } 
 .gdlr-core-tab-item-title-line{ border-color: #000000; color: #000000; } 
 .gdlr-core-tab-item-title.gdlr-core-active{ color: #000000; } 
-.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title.gdlr-core-active, .gdlr-core-tab-style1-vertical .gdlr-core-tab-item-title.gdlr-core-active{ background-color: #ffffff; } 
+.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title.gdlr-core-active, .gdlr-core-tab-style1-vertical .gdlr-core-tab-item-title.gdlr-core-active{ background-color: #979797; } 
 table tr th{ background-color: #000000; } 
 table tr th, .arki-body table tr th a, .arki-body table tr th a:hover{ color: #ffffff; } 
 table tr:nth-child(odd){ background-color: #f9f9f9; } 
@@ -5846,4 +5851,13 @@ body.page-id-13724.single-product .arki-header-background-transparent {
     #counterbg {
     background-size: auto;
  }
+}
+
+#bannersize {
+    padding: 120px 0px;
+}
+@media (max-width:598px) {
+    #bannersize {
+        padding: 70px 0px;
+    }
 }

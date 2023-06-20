@@ -831,7 +831,7 @@ ul.slides .clearfix{ height: auto; opacity: 1; clear: none; }
 .gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title{ margin-left: -1px; padding: 18px 28px 14px;
 	border-width: 1px 1px 0px; border-style: solid; display: inline-block; }
 .gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title:first-child{ margin-left: 0px; }
-.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title.gdlr-core-active{ margin-bottom: -1px; padding-bottom: 15px; }
+.gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title.gdlr-core-active{ /* margin-bottom: -1px;*/ padding-bottom: 15px; }
 .gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-title-wrap{ border-bottom-width: 1px; border-bottom-style: solid; }
 .gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-content{ padding: 25px 0px 5px; }
 
