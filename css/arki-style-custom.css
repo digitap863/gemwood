@@ -205,8 +205,8 @@ body.arki-boxed .arki-body-wrapper{ margin-top: 0px; margin-bottom: 0px; }
 }
 
 @media only screen and (max-width: 767px){ .arki-mobile-header .arki-logo-inner{ max-width: 145px; } } 
-.arki-navigation{ padding-top: 45px; }.arki-navigation-top{ top: 45px; } 
-.arki-navigation .sf-menu > li > a{ padding-bottom: 26px; } 
+.arki-navigation{ padding-top: 40px; }.arki-navigation-top{ top: 45px; } 
+.arki-navigation .sf-menu > li > a{ padding-bottom: 18px; } 
 .arki-navigation .arki-main-menu{ padding-right: 20px; } 
 .arki-navigation.arki-item-pdlr{ padding-right: 30px; } 
 .arki-main-menu-right-wrap{ margin-top: 5px; } 
