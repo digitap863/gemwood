@@ -1480,7 +1480,7 @@ body .gdlr-core-tab-feature3-item .gdlr-core-tab-feature3-content-button .gdlr-c
 .gdlr-core-dropcap{ font-size: 30px; line-height: 30px; font-weight: 700; float: left; margin-right: 20px; margin-bottom: 8px; margin-top: 8px; }
 .gdlr-core-dropcap.gdlr-core-type-circle{ border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; }
 .gdlr-core-dropcap.gdlr-core-type-circle,
-.gdlr-core-dropcap.gdlr-core-type-rectangle{ text-align: center; padding: 8px 10px 12px; width: 50px;   }
+.gdlr-core-dropcap.gdlr-core-type-rectangle{ text-align: center; padding: 5px 10px 8px; width: 50px;   }
 .gdlr-core-dropcap.gdlr-core-type-normal { font-size: 48px; margin-top: 18px; margin-left: 10px; }
 
 /* blog */
